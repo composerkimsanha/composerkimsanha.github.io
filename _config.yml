@@ -38,14 +38,16 @@ additional_links:
 # About Section
 # about_title: About Me (Use this to override about section title)
 about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+about_content: |
+  그는 전통음악의 어법과 국악기의 고유한 특성에 주목하는 동시에, 이를 전통적 문법에서 벗어나 창의적으로 활용하여 창작 음악의 지향점을 확장하는 데 집중하고 있다.  
+  작곡가로서 가장 중요하게 여기는 것은 작품이 연주자와 청중 모두에게 의미를 줄 수 있어야 한다는 점이다.  
+  스스로도 다시 찾아 듣고 싶은 음악을 만들기 위해 끊임없이 탐구하고 있다.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  He focuses on the idioms of traditional Korean music and the unique characteristics of its instruments,  
+  while striving to creatively reinterpret them beyond conventional frameworks to expand the expressive scope of new music.  
+  As a composer, he values most the creation of works that hold meaning for both performers and listeners.  
+  He is continually exploring new directions to create music he would want to return to and listen to again.
+
 
 content:
   - title: Projects # Title for the section
