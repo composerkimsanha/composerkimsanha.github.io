@@ -37,11 +37,11 @@ about_content: |
   He is continually exploring new directions to create music he would want to return to and listen to again.
 
 content:
-  - title: Experience
+  - title: 활동 | Experience
     layout: list
     content:
       - layout: right
-        title: Performances
+        title: 작품 발표 | Performances
         description: |
           - **2022.10.05** 중앙거문고합주단 정기연주회  
             **_물음을 위한 물음_** 위촉 초연
@@ -62,7 +62,7 @@ content:
             **_내고 - 달고 - 맺고 - 풀고_** 위촉 초연
 
       - layout: right
-        title: Awards
+        title: 수상 | Awards
         description: |
           - **2022.05.26** 제42회 온나라국악경연대회 작곡 부문 **3위 (동상)**  
           - **2023.05.25** 제43회 온나라국악경연대회 작곡 부문 **1위 (은상)**  
@@ -70,7 +70,7 @@ content:
 
 
 
-  - title: Education
+  - title: 학력 | Education
     layout: list
     content:
       - layout: top-right
