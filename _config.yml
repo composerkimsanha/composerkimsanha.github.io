@@ -1,6 +1,6 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+repository: composerkimsanha/composerkimsanha.github.io
+# favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
@@ -9,34 +9,22 @@ version: 2
 name: 김산하 | Sanha Kim
 title: 작곡가 | Composer
 email: leaf6587@gmail.com
-# email_title: Email (Email title override)
 website: "https://youtube.com/@composerkimsanha"
-# website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
 instagram_username: 9sanha
-youtube_username: @composerkimsanha
+youtube_username: composerkimsanha
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+  - title: YouTube
+    icon: fab fa-youtube
+    url: "https://youtube.com/@composerkimsanha"
 
 # About Section
-# about_title: About Me (Use this to override about section title)
 about_profile_image: _test/profile.jpeg
 about_content: |
   작곡가 김산하는 한국의 전통음악을 기반으로 활동하는 작곡가이다.  
@@ -49,28 +37,24 @@ about_content: |
   while striving to creatively reinterpret them beyond conventional frameworks to expand the expressive scope of new music.  
   As a composer, he values most the creation of works that hold meaning for both performers and listeners.  
   He is continually exploring new directions to create music he would want to return to and listen to again.
-  
+
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
-                      # other value (or no value) means no border will be displayed
+        border: weak
         title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         link_text: Link Text
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title: GitHub page for project
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+            url: https://github.com/sproogen/modern-resume-theme
         quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
+          Short overview of the project
+        description: |
           Description about the work on/with the project
+
   - title: Experience
     layout: list
     content:
@@ -105,35 +89,32 @@ content:
 
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
+    content: |
       This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
 
       Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
-# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
-# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+remote_theme: sproogen/modern-resume-theme
 
 sass:
   sass_dir: _sass
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
 
-exclude : [
-  "Gemfile",
-  "Gemfile.lock",
-  "node_modules",
-  "vendor/bundle/",
-  "vendor/cache/",
-  "vendor/gems/",
-  "vendor/ruby/",
-  "lib/",
-  "scripts/",
-  "docker-compose.yml",
-  ]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - lib/
+  - scripts/
+  - docker-compose.yml
