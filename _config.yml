@@ -75,14 +75,22 @@ content:
     layout: list
     content:
       - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
+        title: Performances & Projects
+        description: |
+          - **2022.10.05** 중앙거문고합주단 정기연주회, _<물음을 위한 물음>_ 위촉 초연  
+          - **2022.11.11** 국립국악원 창작악단 '청춘, 청어람' 선정, _<잎맥의 길>_ 발표  
+          - **2023.08.08** 앙상블 바론 정기연주회, _<Stain-less>_ 위촉 초연  
+          - **2024.10.24** 경기시나위오케스트라 ‘12작곡가’, _<숲속의 독백>_ 위촉 초연  
+          - **2024.10.28** 내리악회 ‘탈전통’ 기획 및 _<탈 I - 비틀림>_ 발표  
+          - **2025.04.23** 국립국악원 창작악단 기획공연 ‘수작’, _<내고 - 달고 - 맺고 - 풀고>_ 위촉 초연
+
+      - layout: right
+        title: Awards
+        description: |
+          - **2022.05.26** 제42회 온나라국악경연대회 작곡 부문 **3위 (동상)**  
+          - **2023.05.25** 제43회 온나라국악경연대회 작곡 부문 **1위 (은상)**  
+          - **2023.11.10** 제2회 지영희국악창작공모전 **은상**
+
    - title: Education
     layout: list
     content:
