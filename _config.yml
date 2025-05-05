@@ -28,9 +28,9 @@ additional_links:
 about_profile_image: _test/profile.jpeg
 about_content: |
   작곡가 김산하는 한국의 전통음악을 기반으로 활동하는 작곡가이다.  
-  그는 전통음악의 어법과 국악기의 고유한 특성에 주목하는 동시에, 이를 전통적 문법에서 버리고 찾의적으로 활용하여 창작 음악의 지향점을 확장하는 데 중점하고 있다.  
+  그는 전통음악의 어법과 국악기의 고유한 특성에 주목하는 동시에, 이를 전통적 문법에서 벗어나 창의적으로 활용하여 창작 음악의 지향점을 확장하는 데 집중하고 있다.  
   작곡가로서 가장 중요하게 여기는 것은 작품이 연주자와 청중 모두에게 의미를 줄 수 있어야 한다는 점이다.  
-  스스로도 다시 찾아 \ub4e4고 싶은 음악을 만들기 위해 \끊어진 탕구를 통해 참여하고 있다.
+  스스로도 다시 찾아 듣고 싶은 음악을 만들기 위해 끊임없이 탐구하고 있다.
 
   Composer Sanha Kim is a composer working with a foundation in Korean traditional music.  
   He focuses on the idioms of traditional Korean music and the unique characteristics of its instruments,  
@@ -45,12 +45,12 @@ content:
       - layout: right
         title: Performances & Projects
         description: |
-          2022.10.05 중앙거문고합주단 정기연주회, <물을 위한 물음> 위출 초연  
+          2022.10.05 중앙거문고합주단 정기연주회, <물을 위한 물음> 위촉 초연  
           2022.11.11 국립국악원 창작악단 '청춘, 청어람' 선정, <잎망의 길> 발표  
-          2023.08.08 안산블 바론 정기연주회, <Stain-less> 위출 초연  
-          2024.10.24 경기시나위오케스트라 '<12작곡가>', <숲속의 독밝> 위출 초연  
+          2023.08.08 앙산블 바론 정기연주회, <Stain-less> 위촉 초연  
+          2024.10.24 경기시나위오케스트라 '<12작곡가>', <숲속의 독백> 위촉 초연  
           2024.10.28 내리악회 '탈전통' 기획 및 <탈 I - 비틀림> 발표  
-          2025.04.23 국립국악원 창작악단 기획공연 '수작', <내고 - 달고 - 맫고 - 풀고> 위출 초연
+          2025.04.23 국립국악원 창작악단 기획공연 '수작', <내고 - 달고 - 맺고 - 풀고> 위촉 초연
 
       - layout: right
         title: Awards
@@ -64,8 +64,8 @@ content:
     content:
       - layout: top-right
         title: 중앙대학교
-        sub_title: 전통예술학부 작곡전공 학생
-        caption: 2023.08 조부
+        sub_title: 전통예술학부 작곡전공
+        caption: 2023.08 졸업
       - layout: top-right
         title: 중앙대학교 대학원
         sub_title: 한국음악학과 석사 재학
